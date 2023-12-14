@@ -53,7 +53,7 @@ sudo apt install -y nitrogen
 # sudo apt install -y feh
  
 # Fonts and icons for now
-sudo apt install -y fonts-firacode fonts-liberation2 fonts-ubuntu papirus-icon-theme fonts-cascadia-code fonts-noto fonts-font-awesome
+sudo apt install -y fonts-firacode fonts-liberation2 yaru-theme-icon yaru-theme-gtk fonts-cascadia-code
 
 # Curl
 sudo apt install -y curl jq
