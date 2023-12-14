@@ -26,7 +26,7 @@ sudo systemctl enable acpid
 sudo apt install -y thunar
 
 # Terminal (eg. terminator,kitty,xfce4-terminal)
-sudo apt install -y xfce4-terminal kitty
+sudo apt install -y xfce4-terminal alacritty
 
 # Sound packages
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
