@@ -35,6 +35,18 @@ export PATH="~/.local/bin:$PATH"
 export PATH="/usr/local/go/bin:$PATH"
  export VISUAL=nvim;
  export EDITOR=nvim;
+
+apt() { 
+  command nala "$@"
+}
+sudo() {
+  if [ "$1" = "apt" ]; then
+    shift
+    command sudo nala "$@"
+  else
+    command sudo "$@"
+  fi
+}
 # PS1 Customization
 PS1="\[\e[32m\]\h\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[34m\]\u\[\e[m\] \W \$ " 
 neofetch
