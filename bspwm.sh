@@ -71,7 +71,7 @@ sudo systemctl enable cups
 sudo systemctl enable bluetooth
 
 # Packages needed for bspwm installation
-sudo apt install -y bspwm sxhkd dmenu picom numlockx rofi dunst libnotify-bin unzip scrot
+sudo apt install -y bspwm sxhkd dmenu picom numlockx rofi dunst libnotify-bin unzip scrot polybar
 
 # Clipboard applet
 sudo apt install -y xfce4-clipman
