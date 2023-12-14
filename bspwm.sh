@@ -22,15 +22,11 @@ sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backen
 sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
  
-# Pacstall - AUR for Ubuntu
-sudo bash -c "$(wget -q https://pacstall.dev/q/install -O -)"
-
 # File Manager (eg. pcmanfm,krusader,thunar,nautilus)
 sudo apt install -y thunar
 
 # Terminal (eg. terminator,kitty,xfce4-terminal)
-sudo apt install -y xfce4-terminal
-pacstall -I alacritty
+sudo apt install -y xfce4-terminal kitty
 
 # Sound packages
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
