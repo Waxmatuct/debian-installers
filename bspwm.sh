@@ -74,7 +74,7 @@ sudo systemctl enable bluetooth
 sudo apt install -y bspwm sxhkd dmenu picom numlockx rofi dunst libnotify-bin unzip scrot polybar
 
 # Clipboard applet
-sudo apt install -y xfce4-clipman
+sudo apt install -y xfce4-clipman xfce4-notifyd
 
 # Command line text editor -- nano preinstalled 
 # sudo apt install -y micro
