@@ -10,7 +10,7 @@ If you use these for Debian Testing. It may work or ....
 
 ```
 sudo apt update && sudo apt upgrade -y
-sudo apt install git micro exa nala xdg-user-dirs
+sudo apt install git micro exa nala xdg-user-dirs openssh-server
 
 LC_ALL=en_US xdg-user-dirs-update --force
 
