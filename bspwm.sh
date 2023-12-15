@@ -26,10 +26,10 @@ sudo systemctl enable acpid
 sudo apt install -y thunar
 
 # Terminal (eg. terminator,kitty,xfce4-terminal)
-sudo apt install -y xfce4-terminal alacritty
+sudo apt install -y alacritty xfce4-terminal
 
 # Sound packages
-sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa
+sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pulseaudio-equalizer
 
 # Neofetch/HTOP
 sudo apt install -y neofetch htop
@@ -53,7 +53,7 @@ sudo apt install -y nitrogen
 # sudo apt install -y feh
  
 # Fonts and icons for now
-sudo apt install -y fonts-firacode fonts-liberation2 yaru-theme-icon yaru-theme-gtk fonts-cascadia-code
+sudo apt install -y fonts-firacode fonts-liberation2 yaru-theme-icon yaru-theme-gtk fonts-cascadia-code fonts-font-awesome
 
 # Curl
 sudo apt install -y curl jq
