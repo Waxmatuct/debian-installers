@@ -11,7 +11,7 @@ sudo apt install -y build-essential
 
 # Microcode for Intel/AMD 
 # sudo apt install -y amd64-microcode
-sudo apt install -y intel-microcode
+# sudo apt install -y intel-microcode
 
 # Nvidia drivers 
 # sudo apt install -y nvidia-driver firmware-misc-nonfree
@@ -53,7 +53,7 @@ sudo apt install -y nitrogen
 # sudo apt install -y feh
  
 # Fonts and icons for now
-sudo apt install -y fonts-firacode fonts-liberation2 yaru-theme-icon yaru-theme-gtk fonts-cascadia-code fonts-font-awesome
+sudo apt install -y fonts-firacode fonts-liberation2 yaru-theme-icon yaru-theme-gtk fonts-font-awesome
 
 # Curl
 sudo apt install -y curl jq
